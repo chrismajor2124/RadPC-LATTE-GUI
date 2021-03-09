@@ -38,7 +38,7 @@ class Application(tk.Tk):
 
         self._frame = None
         self.title( "LATTE 1.0" )
-        self.attributes( '-fullscreen', False ) # CHANGE ON PI
+        self.attributes( '-fullscreen', True ) # CHANGE ON PI
 
         geom = str( style.s_f_width ) + "x" + str( style.s_f_height )
         self.geometry( geom )
